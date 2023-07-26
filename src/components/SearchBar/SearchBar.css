@@ -1,0 +1,83 @@
+.container {
+    height: 100vh;
+    border: rgba(0, 0, 255, 0.405) solid 1px;
+    background-image: radial-gradient(circle at center top, hsl(214, 47%, 23%) , hsl(237, 49%, 15%) );
+    background-repeat: no-repeat;
+    position: relative;
+}
+.searchbar {
+    border-radius: 15px;
+    border: hsl(217, 16%, 45%) solid 2px;
+    height: 20vh;
+    width: 50vw;
+    margin: 7vh auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.options  h1{
+    line-height: calc(20vh/6);
+}
+.options {
+    padding-left: 2vw;
+    margin-top: 1vh;
+    color: white;
+}
+.score {
+    background-color: white;
+    margin-top: 2vh;
+    margin-right: 2vw;
+    width: 150px;
+    height: 16vh;
+    border-radius: 15px;
+}
+.score h2 {
+    padding-left: 45px;
+    padding-top: 2vh;
+    font-size: 1.2rem;
+    color: hsl(229, 64%, 46%);
+}
+.score span {
+    font-size: 4rem;
+    padding-left: 55px;
+}
+.rules {
+    border: hsl(217, 16%, 45%) solid 2px;
+    color: hsl(217, 16%, 45%);
+    font-size: 1rem;
+    padding: 5px;
+    width: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 8px;
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+}
+.rules-img {
+    background-image: url('../../assets/images/image-rules-bonus.svg');
+    width: 26vw;
+    height: 62vh;
+    z-index: 1;
+    position: absolute;
+    top: 23%;
+    left: 37%;
+    object-fit: fill;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.rules-img h3 {
+    font-size: 2rem;
+    margin-left: 1.2vw;
+    margin-top: 3vh;
+}
+.rules-img button {
+    margin-left: 87%;
+    transform: translateY(-4vh);
+    background-color: white;
+    border: none;
+}
